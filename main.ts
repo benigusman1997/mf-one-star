@@ -11,10 +11,10 @@ import { join } from "node:path";
 const OUT_DIR = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 const MAX_CHARS = 160;
 
-// A deadpan one-star review of sleep, with the sting in the last two words.
+// v2: a deadpan one-star review of gravity, with a tally and the turn in the last words.
 const ENTRY =
-  "Sleep: one star. Only works when you stop trying to use it, which is the " +
-  "worst support advice I have ever received and also correct.";
+  "Gravity: one star. Dropped my toast butter-side down 31 times since 2019. " +
+  "Contacted support. Was told it's 'a law.' Still waiting on the appeal.";
 
 function fail(message: string): never {
   console.error("entry.txt rejected: " + message);
