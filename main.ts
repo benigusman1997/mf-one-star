@@ -13,8 +13,8 @@ const MAX_CHARS = 160;
 
 // v2: a deadpan one-star review of gravity, with a tally and the turn in the last words.
 const ENTRY =
-  "Gravity: one star. Dropped my toast butter-side down 31 times since 2019. " +
-  "Contacted support. Was told it's 'a law.' Still waiting on the appeal.";
+  "Mondays: one star. Ordered a weekend, received this instead. It has arrived every " +
+  "week since 1997 despite repeated cancellations. Seller does not respond.";
 
 function fail(message: string): never {
   console.error("entry.txt rejected: " + message);
